@@ -1,0 +1,213 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+.nav-list a{
+    color: #FF206E ;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.nav-list a:hover{
+    font-size: 14px;
+    transition: 0.5s;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    height: 10vh;
+}
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+.nav-list li{
+    margin-left: 55px;
+}
+.logo{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+h1,p{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 120px;
+    height: auto;
+}
+.p{
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 1px;
+    font-size: 30px;
+    padding-top: 40px;
+    padding-left: 33%;
+    position:absolute;
+    
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blanchedalmond;   
+}
+.container-2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blanchedalmond; 
+    position: relative; 
+    padding-bottom: 450px;
+}
+.card{
+    width: 310px;
+    height: 350px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 1rem;
+    padding: 4rem 2rem 0;
+    color: black;
+    overflow-y: hidden ;
+    margin-left: 0;
+    margin: 10px;
+    box-shadow: 0 60px 40px -30px rgba(0, 0, 0, 0.27);
+}
+.card-2{
+    width: 390px;
+    height: 290px;
+    background-color: #FE001A;
+    border-radius: 1rem;
+    padding: 4rem 2rem 0;
+    color: black;
+    overflow-y: hidden ;
+    margin-left: 0;
+    margin: 10px;
+    box-shadow: 0 60px 40px -30px rgba(0, 0, 0, 0.27);
+}
+.card-img2{
+    margin-left: 35px;
+    position: absolute;
+    width: 90px;
+    filter: drop-shadow(5px 10px 15px rgba(8,9,13,.4));
+}
+.card-img2{
+    margin-left: 1%;
+    position: absolute;
+    width: 300px;
+    filter: drop-shadow(5px 10px 15px rgba(8,9,13,.4));
+}
+.card-img3{
+    margin-left: 2%;
+    position: absolute;
+    width: 270px;
+    filter: drop-shadow(5px 10px 15px rgba(8,9,13,.4));
+}
+.fixed-mensage{
+    font-style: oblique;
+    position: absolute;
+    margin-left: 83%;
+    margin-top: 40%;
+    font-weight: bolder;
+}
+.card-data{
+    transform: translateY(13.2rem);
+    text-align: center;
+}
+.card-title{
+    font-size: 1.2rem;
+    color: black;
+    margin-top: 5%;
+    margin-left: 2%;
+    position: absolute;
+}
+.card-preci{
+    display: inline-block;
+    font-size: 1.20rem;
+    font-weight: 200;
+    margin-bottom: 1.25rem;
+}
+.card-descripition{
+    font-size: .875rem;
+    text-align: initial;
+    margin-top: 1rem;
+    opacity: 0;
+}
+.card-img,
+.card-data,
+.card-title,
+.card-preci,
+.card-descripition{
+    transition: .5s;
+}
+.card-2:hover .card-img2{
+    transition: .3s;
+    transform-style:preserve-3d;
+    transform: translate(-1.5rem, -5.5rem) rotate(-30deg);
+}
+.card-2:hover .card-img3{
+    transition: .3s;
+    transform-style:preserve-3d;
+    transform: translate(-1.5rem, -5.5rem) rotate(-30deg);
+}
+.card-2:hover .card-data{
+    transform: translateY(4.8rem);
+}
+.card-2:hover .card-title{
+    transform: translateX(10.3rem);
+    margin-bottom: 80px;  
+}
+.card-2:hover .card-preci{
+    transform: translateX(-4rem);
+}
+.card-2:hover .card-descripition, .card-2:hover .card-button{
+    transition-delay: .4s;
+    opacity: 1;
+}
+footer{
+    background-color: rgb(253, 253, 253);
+    bottom: 0;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    width: 100%;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    background-color: #c3e6ff;
+    position: initial;
+    width: 100%;
+}
+.main{
+    height: 90vh;
+}
+.ancora{
+    width: 30px;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    margin-left: 49%;
+}
+.ancora:hover{
+    opacity: .5;
+}
+h5{
+    float: inline-end;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
